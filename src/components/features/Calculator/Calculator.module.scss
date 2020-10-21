@@ -1,0 +1,50 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid $color-dark;
+  background: $color-light;
+}
+
+.input {
+  width: 100%;
+  padding: 16px 32px;
+  border: none;
+  background: $color-dark;
+  color: $color-main;
+  font-size: 2em;
+
+  &::placeholder {
+    color: $color-main;
+  }
+}
+
+.buttons {
+  display: flex;
+}
+
+.numbers {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  button {
+    width: 33%;
+    font-size: 3em;
+  }
+}
+
+.marks {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  button {
+    width: 100%;
+    font-size: 2em;
+  }
+}
