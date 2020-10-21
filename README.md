@@ -7,4 +7,4 @@
 
 ## Twitch
 
-Project had been created on live stream. URL: `https://www.twitch.tv/uczesiekodowac`
+The project has been created on a live stream URL: `https://www.twitch.tv/uczesiekodowac`
